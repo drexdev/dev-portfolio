@@ -2,6 +2,7 @@
 
 :root {
   --color-background: rgb(19, 18, 31);
+  --color-background-transparency: rgb(19, 18, 31, 0.85);
   --color-primary: #8855ff;
   --color-secondary: #a990e1;
   --color-text: #ffffff;
