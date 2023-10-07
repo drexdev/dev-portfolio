@@ -10,4 +10,11 @@ html {
 
 body {
   background: var(--color-background);
+  font-family: var(--font-style);
+  color: var(--color-text);
+}
+
+#root {
+  max-width: var(--config-max-width-screen);
+  margin: 0 auto;
 }
