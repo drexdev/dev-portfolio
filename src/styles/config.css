@@ -1,0 +1,13 @@
+:root {
+  --color-background: rgb(19, 18, 31);
+  --color-primary: #8855ff;
+  --color-secondary: #4450ff;
+  --color-text: #ffffff;
+
+  --font-size-title: 1.5rem;
+  --font-size-big-title: 2.3rem;
+  --font-size-sub-title: 1.2rem;
+  --font-size-default: 1rem;
+
+  --config-max-width-screen: 1600px;
+}
