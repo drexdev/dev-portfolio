@@ -1,0 +1,145 @@
+.bannerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  min-height: 100vh;
+
+  animation: slidein 1s ease;
+}
+
+.textContainer {
+  width: 60%;
+}
+
+.textApresentation {
+  color: rgb(144, 144, 144);
+  font-size: var(--font-size-sub-title);
+  font-weight: 400;
+}
+
+.myName {
+  font-size: var(--font-size-big-title);
+}
+
+.whoAmI {
+  font-size: var(--font-size-big-title);
+  opacity: 0.8;
+
+  margin-top: 10px;
+
+  & span {
+    opacity: 1;
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-underline-offset: 15px;
+  }
+}
+
+.meDescription {
+  line-height: 2em;
+  margin-top: 40px;
+  width: 60%;
+}
+
+.buttonsContainer {
+  display: flex;
+  align-items: center;
+
+  margin-top: 40px;
+  gap: 7px;
+
+  font-size: var(--font-size-default);
+}
+
+.buttonDownloadCV {
+  background-color: var(--color-primary);
+  transition: background-color 0.3s ease;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-weight: 500;
+
+  &:hover {
+    background-color: var(--color-secondary);
+  }
+}
+
+.buttonContactUs {
+  border: 2px solid var(--color-primary);
+  background-color: transparent;
+  transition: background-color 0.3s ease, border 0.3s ease;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-weight: 500;
+
+  &:hover {
+    background-color: var(--color-secondary);
+    border: 2px solid var(--color-secondary);
+  }
+}
+
+.emailFixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  transition: all 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 80px;
+  font-size: var(--font-size-default);
+  opacity: 0.7;
+
+  & p {
+    /*transform: rotate(270deg);*/
+    rotate: 270deg;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 10px auto 0;
+    background: white;
+    opacity: 0.5;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .emailFixed {
+    right: -6%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .emailFixed {
+    display: none;
+  }
+
+  .textContainer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .meDescription {
+    width: 100%;
+  }
+
+  .buttonsContainer {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .buttonContactUs, .buttonDownloadCV {
+    width: 100%;
+  }
+}
+
+@keyframes slidein {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(0%); }
+}
