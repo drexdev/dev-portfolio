@@ -4,6 +4,13 @@ import styles from "./page.module.css"
 import Social from "./components/Social";
 import Code from "./components/Code";
 
+import NestJsIcon from './assets/nestjs-icon.svg';
+import NextJsIcon from './assets/next-js.svg';
+import ReactIcon from './assets/react-2.svg';
+import SassIcon from './assets/sass-1.svg';
+import SCIcon from './assets/styled-components-1.svg';
+import TSIcon from './assets/typescript.svg';
+
 function App() {
   return (
     <React.Fragment>
@@ -18,7 +25,7 @@ function App() {
           <h3 className={styles.textApresentation}>Olá, meu nome é</h3>
           <h1 className={styles.myName}>André Lucas!</h1>
           <h1 className={styles.whoAmI}>Sou desenvolvedor <span>Nest.JS</span> e <span>Next.JS</span>.</h1>
-          <p className={styles.meDescription}>Sou desenvolvedor full-stack com foco em Nest.JS e NextJS. Meu objetivo é desenvolver produtos acessíveis e intuitivos, colocando o usuário no centro do processo.</p>
+          <p className={styles.meDescription}>Sou desenvolvedor full-stack com foco em Nest.JS e NextJS. Minha ideia principal é tornar as coisas mais fáceis para os usuários e criar uma interface legal e amigável.</p>
 
           <div className={styles.buttonsContainer}>
             <a href='#' className={styles.buttonDownloadCV}>Download CV</a>
@@ -30,25 +37,52 @@ function App() {
       </section>
 
       <section id='about' className={styles.sectionAbout}>
-        <h3 className={styles.sectionSubTitle}>#SOBRE</h3>
-        <h1 className={styles.sectionTitle}>Conheça um pouco <span>sobre mim</span>.</h1>
+        <div className={styles.textSectionAboutContainer}>
+          <h3 className={styles.sectionSubTitle}>#SOBRE</h3>
+          <h1 className={styles.sectionTitle}>Conheça um pouco <span>sobre mim</span>.</h1>
 
-        <p className={styles.descriptionAbout}>Olá! Eu sou <b>André</b>, tenho 17 anos e sou apaixonado por programação desde os meus 13 anos. Durante esse tempo venho experimentando e aprendendo várias <b>linguagens</b> e <b>tecnologias</b>.
-          <br/>
-          <br/>
-          Atualmente meu foco principal no desenvolvimento é <b>NextJS</b> e <b>NestJS</b>, mas estou sempre diposto a aprender novas coisas.
-        </p>
+          <p className={styles.descriptionAbout}>Olá! Eu sou <b>André</b>, tenho 17 anos e sou apaixonado por programação desde os meus 13 anos. Durante esse tempo venho experimentando e aprendendo várias <b>linguagens</b> e <b>tecnologias</b>.
+            <br/>
+            <br/>
+            Atualmente meu foco principal no desenvolvimento é <b>NextJS</b> e <b>NestJS</b>, mas estou sempre diposto a aprender novas coisas.
+          </p>
 
-        <div className={styles.socialIcons}>
-          <a href='/' className={styles.socialIcon} title='Instagram'>
-            <i className='bx bxl-instagram'></i>
-          </a>
-          <a href='/' className={styles.socialIcon} title='GitHub'>
-            <i className='bx bxl-github'></i>
-          </a>
-          <a href='/' className={styles.socialIcon} title='LinkedIn'>
-            <i className='bx bxl-linkedin'></i>
-          </a>
+          <div className={styles.socialIcons}>
+            <a href='/' className={styles.socialIcon} title='Instagram'>
+              <i className='bx bxl-instagram'></i>
+            </a>
+            <a href='/' className={styles.socialIcon} title='GitHub'>
+              <i className='bx bxl-github'></i>
+            </a>
+            <a href='/' className={styles.socialIcon} title='LinkedIn'>
+              <i className='bx bxl-linkedin'></i>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h1 className={styles.sectionTitle}>Minhas <span>habilidades</span>.</h1>
+
+          <div className={styles.skillsContainer}>
+            <div className={styles.skillContainer}>
+              <img src={NextJsIcon} alt='NextJS Logo' title='NextJS' />
+            </div>
+            <div className={styles.skillContainer}>
+              <img src={NestJsIcon} alt='NestJS Logo' title='NestJS' />
+            </div>
+            <div className={styles.skillContainer}>
+              <img src={TSIcon} alt='Typescript Logo' title='Typescript' />
+            </div>
+            <div className={styles.skillContainer}>
+              <img src={SCIcon} alt='Styled Components Logo' title='StyledComponents' />
+            </div>
+            <div className={styles.skillContainer}>
+              <img src={SassIcon} alt='Sass Logo' title='Sass' />
+            </div>
+            <div className={styles.skillContainer}>
+              <img src={ReactIcon} alt='React Logo' title='React' />
+            </div>
+          </div>
         </div>
       </section>
 
