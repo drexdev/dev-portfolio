@@ -109,11 +109,17 @@ function App() {
               </a>
             </div>
           </div>
-
-          <div className={styles.emptyProject}>
-            <i className='bx bxs-x-circle'></i>
-
-            <p>Ops... aqui não tem projeto, tome um café e aguarde um tempo. Em pouco tempo lançamos mais projetos.</p>
+          <div>
+            <div className={styles.imageProject} style={{ backgroundImage: 'url("/Pizzaria-web.png")' }} />
+            <div className={styles.descriptionProject}>
+              <h1 className={styles.titleProject}>Pizzaria</h1>
+              <p className={styles.moreDescriptionProject}>Projeto final do curso de <b>Programação Web - Senac - 2022</b></p>
+            </div>
+            <div className={styles.linksToProject}>
+              <a href='https://github.com/nilosenac/pizzaria' target='_blank' className={styles.linkToProject} title='Acessar GitHub do projeto'>
+                <i className='bx bxl-github'></i>
+              </a>
+            </div>
           </div>
 
           <div className={styles.emptyProject}>
