@@ -23,6 +23,10 @@ export const HeaderStyle = styled.header`
     from { transform: translateY(-100%); }
     to { transform: translateY(0%); }
   }
+
+  @media only screen and (max-width: 850px) {
+    justify-content: center;
+  }
 `
 export const LinksContainer = styled.ul`
   display: flex;
