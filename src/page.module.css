@@ -29,6 +29,7 @@
 
 .myName {
   font-size: var(--font-size-big-title);
+  font-weight: 700;
 }
 
 .whoAmI {
@@ -271,10 +272,13 @@
 }
 
 .sectionContact {
-  padding-top: 10em;
+  margin-top: 6em;
+  padding: 6em 0;
 
   display: flex;
-  justify-content: right;
+  justify-content: center;
+
+  border-top: 1px solid var(--color-terciary);
   gap: 40px;
 }
 
