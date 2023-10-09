@@ -60,9 +60,9 @@ function App() {
           </div>
         </div>
 
-        <div>
+        <div className={styles.skillsSection}>
           <h1 className={styles.sectionTitle}>Minhas <span>habilidades</span>.</h1>
-
+          <p>Veja quais são as minhas habilidades e conhecimentos</p>
           <div className={styles.skillsContainer}>
             <div className={styles.skillContainer}>
               <img src={NextJsIcon} alt='NextJS Logo' title='NextJS' />

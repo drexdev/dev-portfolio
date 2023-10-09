@@ -158,6 +158,10 @@
   }
 }
 
+.skillsSection {
+  text-align: end;
+}
+
 .skillsContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -432,6 +436,10 @@
 
   .emailFixed {
     right: -6%;
+  }
+
+  .skillsSection {
+    text-align: start;
   }
 
   .sectionAbout {
