@@ -11,6 +11,7 @@ html {
 body {
   background: var(--color-background);
   font-family: var(--font-style);
+  font-size: var(--font-size-default);
   color: var(--color-text);
 
   height: 500vh;

@@ -6,7 +6,6 @@ const Header = () => {
   const links : TypeLinks[] = [
     { name: 'Início', href: '#', selected: true },
     { name: 'Sobre', href: '#about' },
-    { name: 'Habilidades', href: '#skills' },
     { name: 'Projetos', href: '#projects' },
     { name: 'Contato', href: '#contact' }
   ];

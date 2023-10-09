@@ -81,20 +81,20 @@ export const NumberListRow = styled.div`
 export const CodeEditor = styled.div`
   width: 92%;
   padding: 10px 0;
-  
+
   .vars {
-    color: #FF2C64;
-    font-weight: 600;
+    color: #2ce6ff;
+    font-weight: 500;
   }
-  
+
   .string {
     color: #F8CC66;
   }
-  
+
   .number {
     color: red;
   }
-  
+
   .lineCode {
     border-bottom: 1px solid #1F1D2FFF;
     margin: 2px 0;

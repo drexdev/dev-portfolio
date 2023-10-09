@@ -46,7 +46,7 @@ export const Link = styled.li`
     color: var(--color-primary);
     font-weight: 600!important;
     
-    pointer-events: none;
+    //pointer-events: none;
   }
   
   &:not(.selected):hover {

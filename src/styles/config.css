@@ -4,13 +4,15 @@
 :root {
   --color-background: rgb(19, 18, 31);
   --color-background-transparency: rgb(19, 18, 31, 0.85);
-  --color-primary: #8855ff;
-  --color-secondary: #a990e1;
+  --color-primary: #55b3ff;
+  --color-secondary: #6893b6;
+  --color-terciary: #2a343b;
   --color-text: #ffffff;
 
   --font-size-title: 1.5rem;
   --font-size-big-title: 3rem;
   --font-size-sub-title: 1.2rem;
+  --font-size-description: 1.175rem;
   --font-size-default: 1rem;
   --font-style: 'Inter', sans-serif;
 
@@ -21,6 +23,7 @@
   :root {
     --font-size-sub-title: 1rem;
     --font-size-big-title: 2.5rem;
+    --font-size-description: 1rem;
     --font-size-default: 0.875rem;
   }
 }
