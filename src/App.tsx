@@ -148,6 +148,8 @@ function App() {
           <p className={styles.descriptionSectionProject}>Estou sempre aberto ao diálogo, <b>novas conexões</b>! Sinta a vontade para entrar em <b>contato comigo</b>.</p>
         </div>
       </section>
+
+      <div className={styles.copyrightText}>2023 © drexdev - Todos direitos reservados</div>
     </React.Fragment>
   )
 }
