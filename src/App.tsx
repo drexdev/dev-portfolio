@@ -101,7 +101,7 @@ function App() {
               <p className={styles.moreDescriptionProject}>É um projeto que permite gerar senhas seguras com funcionalidades como adicionar símbolos, números e regenerar a senha. </p>
             </div>
             <div className={styles.linksToProject}>
-              <a href='https://securekey-delta.vercel.app/' target='_blank' className={styles.linkToProject} title='Acessar link do projeto'>
+              <a href='https://securekey.drexdev.tech/' target='_blank' className={styles.linkToProject} title='Acessar link do projeto'>
                 <i className='bx bx-link-external'></i>
               </a>
               <a href='https://github.com/drexdev/securekey' target='_blank' className={styles.linkToProject} title='Acessar GitHub do projeto'>

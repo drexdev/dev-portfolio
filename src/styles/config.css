@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
 
 :root {
-  --color-background: rgb(19, 18, 31);
-  --color-background-transparency: rgb(19, 18, 31, 0.85);
+  --color-background: rgb(18, 23, 29);
+  --color-background-transparency: rgb(18, 23, 29, 0.85);
   --color-primary: #55b3ff;
   --color-secondary: #6893b6;
   --color-terciary: #2a343b;

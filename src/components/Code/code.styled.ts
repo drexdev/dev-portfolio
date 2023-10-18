@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
 export const CodeContainer = styled.div`
-  background-color: #1F1D2FFF;
+  background-color: #1D252F;
   width: 40%;
   height: 500px;
   border-radius: 10px;
-  border: 1px solid #13121FFF;
+  border: 1px solid #12181f;
 
   position: relative;
   overflow: hidden;
-  
+
   @media only screen and (max-width: 1300px) {
     width: 45%;
   }
@@ -28,7 +28,7 @@ export const TabsContainer = styled.div`
 `
 
 export const TabStyle = styled.div`
-  background-color: #191725;
+  background-color: #151C24;
   height: 100%;
   padding: 0 25px;
 
@@ -48,7 +48,7 @@ export const TabStyle = styled.div`
 export const CodeStyle = styled.div`
   width: 100%;
   height: 100%;
-  background-color: #191725;
+  background-color: #151C24;
   letter-spacing: -0.5px;
   font-family: 'Fira Code', monospace;
   overflow: auto;
@@ -62,19 +62,19 @@ export const NumberListRow = styled.div`
   width: 7%;
   height: 100%;
   background-color: transparent;
-  
-  border-right: 1px solid #1F1D2FFF;
+
+  border-right: 1px solid #1d262f;
   display: flex;
   align-items: center;
   justify-content: left;
   flex-direction: column;
   padding: 10px 0;
-  
+
   opacity: 0.7;
-  
+
   p {
     margin: 2.5px 0;
-    
+
   }
 `;
 
